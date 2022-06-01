@@ -1,8 +1,10 @@
+@use '../abstracts/' as *;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: $primary-font;
 }
 
 a {
@@ -12,10 +14,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.container {
-  padding: 0 30px;
-  margin: 0 auto;
-  overflow: auto;
 }
