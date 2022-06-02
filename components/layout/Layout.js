@@ -1,12 +1,21 @@
 import styles from './Layout.module.scss';
 
 import NavBar from "./NavBar";
+import Footer from './Footer';
+import Ruler from './Ruler';
+import Container from '../ui/Container';
 
-function Layout() {
+function Layout(props) {
   return (
-    <div className={styles.app}>
+    <Container className={styles.app}>
       <NavBar />
-    </div>
+      <Ruler />
+      <main>
+        {props.children}
+      </main>
+      <Ruler />
+      <Footer />
+    </Container>
   );
 }
 

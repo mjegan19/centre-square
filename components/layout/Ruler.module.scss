@@ -1,0 +1,7 @@
+@use '../../styles/sass/abstracts/' as *;
+
+.divider {
+  hr {
+    border: solid whitesmoke;
+  }
+}
