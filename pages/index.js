@@ -1,9 +1,9 @@
-import BreakingNewsHeadline from "../components/layout/Breaking";
+import ScoreBoard from "../components/layout/ScoreBoard";
 
 function Home(props) {
   return (
     <div>
-      <BreakingNewsHeadline title={'Latest Headline'} description={'Your source for Australian Sports News...'} />
+      <ScoreBoard pageInfo={'home'} title={'Latest Headline'} description={'Your source for Australian Sports News...'} />
     </div>
   );
 }

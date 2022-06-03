@@ -20,29 +20,29 @@ function NavBar() {
       <nav>
         <ul>
           <li className={`${styles.icons} ${styles.sports}`}>
-            <Link href="/footy">
-              <a target="_blank"><GiFootyField title='AFL' /></a>
+            <Link href="/sports/footy">
+              <a><GiFootyField title='AFL' /></a>
             </Link>
-            <Link href="/basketball">
-              <a target="_blank"><MdSportsBasketball title='Basketball' /></a>
+            <Link href="/sports/basketball">
+              <a><MdSportsBasketball title='Basketball' /></a>
             </Link>
-            <Link href="/cricket">
-              <a target="_blank"><MdSportsCricket title='Cricket' /></a>
+            <Link href="/sports/cricket">
+              <a><MdSportsCricket title='Cricket' /></a>
             </Link>
-            <Link href="/golf">
-              <a target="_blank"><MdSportsGolf title='Golf' /></a>
+            <Link href="/sports/golf">
+              <a><MdSportsGolf title='Golf' /></a>
             </Link>
-            <Link href="/racing">
-              <a target="_blank"><MdSportsMotorsports title='Motorsport' /></a>
+            <Link href="/sports/racing">
+              <a><MdSportsMotorsports title='Motorsport' /></a>
             </Link>
-            <Link href="/rugby">
-              <a target="_blank"><MdSportsRugby title='Rugby' /></a>
+            <Link href="/sports/rugby">
+              <a><MdSportsRugby title='Rugby' /></a>
             </Link>
-            <Link href="/soccer">
-              <a target="_blank"><MdSportsSoccer title='Soccer' /></a>
+            <Link href="/sports/soccer">
+              <a><MdSportsSoccer title='Soccer' /></a>
             </Link>
-            <Link href="/tennis">
-              <a target="_blank"><MdSportsTennis title='Tennis' /></a>
+            <Link href="/sports/tennis">
+              <a><MdSportsTennis title='Tennis' /></a>
             </Link>
           </li>
           <li>

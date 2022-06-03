@@ -1,0 +1,64 @@
+@use '../../styles/sass/abstracts/' as *;
+
+.frame {
+  margin-top: 1.25rem;
+  height: 25vh;
+  color: #FFFFFF;
+
+  .home {
+    background: url('../../public/images/mcg.jpg') no-repeat center center/cover;
+  }
+
+  .about {
+    background: url('../../public/images/baseball-stadium.jpg') no-repeat center center/cover;
+  }
+
+  .contact {
+    background: url('../../public/images/soccer-stadium.jpg') no-repeat center bottom/cover;
+  }
+
+  .privacy {
+    background: url('../../public/images/players-mud.jpg') no-repeat center center/cover;
+  }
+
+  .afl {
+    background: url('../../public/images/kardinia-park.jpg') no-repeat center center/cover;
+  }
+
+  .basketball {
+    background: url('../../public/images/toronto-stadium.jpg') no-repeat center center/cover;
+  }
+
+  .cricket {
+    background: url('../../public/images/batsman.jpg') no-repeat center center/cover;
+  }
+
+  .golf {
+    background: url('../../public/images/golf-course.jpg') no-repeat center center/cover;
+  }
+
+  .motorsport {
+    background: url('../../public/images/formula-one.jpg') no-repeat center center/cover;
+  }
+
+  .rugby {
+    background: url('../../public/images/rugby-players.jpg') no-repeat center center/cover;
+  }
+
+  .soccer {
+    background: url('../../public/images/goalkeeper.jpg') no-repeat center center/cover;
+  }
+
+  .tennis {
+    background: url('../../public/images/tennis-court.jpg') no-repeat center center/cover;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 15, 0.3);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

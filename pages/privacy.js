@@ -1,9 +1,9 @@
 import ScoreBoard from "../components/layout/ScoreBoard";
 
-function ContactUs() {
+function Privacy() {
   return (
     <div>
-      <ScoreBoard pageInfo={'contact'} title={'About Us'} description={'Find out everything you wanted to know about CentreSquare...'} />
+      <ScoreBoard pageInfo={'privacy'} title={'Privacy Policy'} description={'Find out everything you wanted to know about CentreSquare...'} />
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia at natus id quibusdam optio illo error magnam ullam, voluptatem necessitatibus libero amet quos similique!</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis sed quaerat magni assumenda qui, eaque minima beatae quidem iure praesentium quae in incidunt ipsam iusto rem dignissimos saepe cum aut atque enim distinctio facere fugiat. Distinctio quas aliquam eius nulla temporibus praesentium corrupti sequi? Iste.</p>
@@ -13,4 +13,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Privacy;
