@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/sass/globals.scss';
 import Layout from '../components/layout/Layout';
 import { Fragment } from 'react';
 

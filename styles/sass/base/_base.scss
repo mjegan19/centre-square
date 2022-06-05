@@ -5,11 +5,19 @@ body {
   padding: 0;
   margin: 0;
   font-family: $primary-font;
+  color: $primary-color;
 }
 
 a {
-  color: inherit;
+  color: $highlight-color;
   text-decoration: none;
+}
+
+h {
+
+  &1 {
+    font-family: $bold-font;
+  }
 }
 
 * {
