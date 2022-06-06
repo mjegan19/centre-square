@@ -3,16 +3,6 @@ import ScoreBoard from "../components/layout/ScoreBoard";
 import NewsResults from "../components/news/NewsResults";
 
 
-function Home(props) {
-
-  return (
-    <div>
-      <ScoreBoard pageInfo={'home'} title={'Latest Sports News'} description={'The best source for sports news, all in one place!'} />
-      <NewsResults loadedNews={props.loadedNews} />
-    </div>
-  );
-}
-
 // Server side generation:
 export const getServerSideProps = async () => {
   // Make API request to NewsAPI
@@ -28,4 +18,14 @@ export const getServerSideProps = async () => {
   };
 };
 
+
+function Home(props) {
+
+  return (
+    <div>
+      <ScoreBoard pageInfo={'home'} title={'Latest Sports News'} description={'The best source for sports news, all in one place!'} />
+      <NewsResults loadedNews={props.loadedNews} />
+    </div>
+  );
+}
 export default Home;
