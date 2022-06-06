@@ -16,15 +16,19 @@ function NewsItem(props) {
       <div className={styles.image}>
         {
           props.image ?
+
             <img
               src={props.image}
               alt={props.title}
             />
+
             :
+
             <img
               src={props.urlToImage}
               alt={props.title}
             />
+
         }
       </div>
       <div className={styles.content}>
