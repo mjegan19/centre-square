@@ -15,17 +15,17 @@ function NewsItem(props) {
     <Card>
       <div className={styles.image}>
         {
-          props.image ?
+          props.imageUrl === null ?
 
             <img
-              src={props.image}
+              src="/public/images/no-image.jpg"
               alt={props.title}
             />
 
             :
 
             <img
-              src={props.urlToImage}
+              src={props.imageUrl}
               alt={props.title}
             />
 
@@ -38,7 +38,7 @@ function NewsItem(props) {
       <div className={styles.actions}>
         {
           props.image ? <button onClick={handleNavigate}>Show Details</button>
-            : <button><a href={props.url} target="_blank" rel="noreferrer">Open Article &#62;&#62;</a></button>
+            : <button><a href={props.articleLink} target="_blank" rel="noreferrer">Open Article &#62;&#62;</a></button>
         }
       </div>
     </Card>

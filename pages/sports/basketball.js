@@ -1,6 +1,6 @@
-import ScoreBoard from "../components/layout/ScoreBoard";
+import ScoreBoard from "../../components/layout/ScoreBoard";
 import axios from "axios";
-import NewsResults from "../components/news/NewsResults";
+import NewsResults from "../../components/news/NewsResults";
 
 function Basketball(props) {
   return (
@@ -12,7 +12,7 @@ function Basketball(props) {
 }
 
 // Server side generation:
-export const getServerSideProps = async context => {
+export const getServerSideProps = async () => {
   // Make API request to NewsAPI
   const response = await axios.get(`https://newsapi.org/v2/everything?q=basketball&apiKey=${process.env.NEWS_API_KEY}`);
   const newsData = response.data.articles;

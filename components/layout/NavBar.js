@@ -20,28 +20,28 @@ function NavBar() {
       <nav>
         <ul>
           <li className={`${styles.icons} ${styles.sports}`}>
-            <Link href="/footy">
+            <Link href="/sports/footy">
               <a><GiFootyField title='AFL' /></a>
             </Link>
-            <Link href="/basketball">
+            <Link href="/sports/basketball">
               <a><MdSportsBasketball title='Basketball' /></a>
             </Link>
-            <Link href="/cricket">
+            <Link href="/sports/cricket">
               <a><MdSportsCricket title='Cricket' /></a>
             </Link>
-            <Link href="/golf">
+            <Link href="/sports/golf">
               <a><MdSportsGolf title='Golf' /></a>
             </Link>
-            <Link href="/racing">
+            <Link href="/sports/racing">
               <a><MdSportsMotorsports title='Motorsport' /></a>
             </Link>
-            <Link href="/rugby">
+            <Link href="/sports/rugby">
               <a><MdSportsRugby title='Rugby' /></a>
             </Link>
-            <Link href="/soccer">
+            <Link href="/sports/soccer">
               <a><MdSportsSoccer title='Soccer' /></a>
             </Link>
-            <Link href="/tennis">
+            <Link href="/sports/tennis">
               <a><MdSportsTennis title='Tennis' /></a>
             </Link>
           </li>

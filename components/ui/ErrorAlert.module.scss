@@ -1,0 +1,16 @@
+@use '../../styles/sass/abstracts/' as *;
+
+.box {
+  display: flex;
+  margin: 4rem auto 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 35%;
+
+  p {
+    padding: 1rem;
+    background-color: $highlight-color;
+    color: $primary-color;
+    border: none;
+  }
+}

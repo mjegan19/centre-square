@@ -6,11 +6,10 @@ function NewsResults(props) {
     <CardLayout>
       {props.loadedNews.map((news) => (
         <NewsItem
-          key={news.id ? news.id : news.title}
-          id={news.id ? news.id : news.title}
-          image={news.image}
-          urlToImage={news.urlToImage}
-          url={news.url}
+          key={news.title}
+          id={news.title}
+          imageUrl={news.urlToImage}
+          articleLink={news.url}
           title={news.title}
           description={news.description}
           category={news.category}

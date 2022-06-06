@@ -1,6 +1,6 @@
 import axios from "axios";
-import ScoreBoard from "../components/layout/ScoreBoard";
-import NewsResults from '../components/news/NewsResults';
+import ScoreBoard from "../../components/layout/ScoreBoard";
+import NewsResults from '../../components/news/NewsResults';
 
 function Footy(props) {
   return (
@@ -12,9 +12,9 @@ function Footy(props) {
 }
 
 // Server side generation:
-export const getServerSideProps = async context => {
+export const getServerSideProps = async () => {
   // Make API request to NewsAPI
-  const response = await axios.get(`https://newsapi.org/v2/everything?q=afl&apiKey=${process.env.NEWS_API_KEY}`);
+  const response = await axios.get(`https://newsapi.org/v2/everything?q=sport%20AND%20(afl)&apiKey=${process.env.NEWS_API_KEY}`);
   const newsData = response.data.articles;
 
   // News Data is returned as props
