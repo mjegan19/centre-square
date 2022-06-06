@@ -1,6 +1,6 @@
-import ScoreBoard from "../../components/layout/ScoreBoard";
+import ScoreBoard from "../components/layout/ScoreBoard";
 import axios from "axios";
-import NewsResults from "../../components/news/NewsResults";
+import NewsResults from "../components/news/NewsResults";
 
 function Basketball(props) {
   return (

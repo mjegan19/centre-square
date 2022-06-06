@@ -1,6 +1,6 @@
 import axios from "axios";
-import ScoreBoard from "../../components/layout/ScoreBoard";
-import NewsResults from '../../components/news/NewsResults';
+import ScoreBoard from "../components/layout/ScoreBoard";
+import NewsResults from '../components/news/NewsResults';
 
 function Racing(props) {
   return (
