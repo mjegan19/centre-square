@@ -53,12 +53,10 @@ function Privacy() {
 
       <h3>Privacy Policy Complaints and Enquiries</h3>
       <p>If you have any queries or complaints about our Privacy Policy please contact us at:</p>
-      <p>
-        <strong>
-          CENTREsquare<br />
-          782 Elizabeth St<br />
-          East Melbourne VIC 3001<br />
-        </strong>
+      <p className="strong">
+        CENTREsquare<br />
+        782 Elizabeth St<br />
+        East Melbourne VIC 3001<br />
       </p>
       <p><strong>enquiries@centresquare.com.au</strong></p>
       <p><strong>(01) 4392-9340</strong></p>
