@@ -38,7 +38,7 @@ function NewsItem(props) {
       <div className={styles.actions}>
         {
           props.image ? <button onClick={handleNavigate}>Show Details</button>
-            : <button><a href={props.url} target="_blank" rel="noreferrer">Link to Article</a></button>
+            : <button><a href={props.url} target="_blank" rel="noreferrer">Open Article &#62;&#62;</a></button>
         }
       </div>
     </Card>

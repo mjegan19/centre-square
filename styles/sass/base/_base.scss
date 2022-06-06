@@ -10,14 +10,34 @@ body {
 }
 
 a {
-  color: $highlight-color;
   text-decoration: none;
 }
 
-h {
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $bold-font;
+  color: $complementary-color;
+}
+
+h {
   &1 {
-    font-family: $bold-font;
+    font-size: 4rem;
+    color: $main-white;
+  }
+
+  &2 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  &3 {
+    margin-top: 1.75rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -27,4 +47,10 @@ h {
 
 .strong {
   font-weight: 600;
+}
+
+// Privacy Page Link
+.privacy {
+  color: $highlight-color;
+  text-decoration: none;
 }

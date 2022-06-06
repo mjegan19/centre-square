@@ -2,7 +2,7 @@
 
 .frame {
   margin-top: 1.25rem;
-  height: 25vh;
+  height: 250px;
   color: #FFFFFF;
 
   .home {
@@ -52,11 +52,18 @@
   .tennis {
     background: url('../../public/images/tennis-court.jpg') no-repeat center center/cover;
   }
+
+  h1,
+  h3 {
+    margin: 0;
+    color: $main-white;
+    text-shadow: 1px 1px 10px $primary-color, -1px -1px 10px $primary-color;
+  }
 }
 
 .overlay {
   background-color: rgba(0, 0, 15, 0.3);
-  height: 25vh;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;

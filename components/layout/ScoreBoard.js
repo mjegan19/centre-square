@@ -9,7 +9,7 @@ function ScoreBoard(props) {
       <div className={styles.home}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'about') {
@@ -17,7 +17,7 @@ function ScoreBoard(props) {
       <div className={styles.about}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'contact') {
@@ -25,7 +25,7 @@ function ScoreBoard(props) {
       <div className={styles.contact}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'privacy') {
@@ -33,7 +33,7 @@ function ScoreBoard(props) {
       <div className={styles.privacy}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'afl') {
@@ -41,7 +41,7 @@ function ScoreBoard(props) {
       <div className={styles.afl}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'basketball') {
@@ -49,7 +49,7 @@ function ScoreBoard(props) {
       <div className={styles.basketball}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'cricket') {
@@ -57,7 +57,7 @@ function ScoreBoard(props) {
       <div className={styles.cricket}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'golf') {
@@ -65,7 +65,7 @@ function ScoreBoard(props) {
       <div className={styles.golf}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'motorsport') {
@@ -73,7 +73,7 @@ function ScoreBoard(props) {
       <div className={styles.motorsport}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'rugby') {
@@ -81,7 +81,7 @@ function ScoreBoard(props) {
       <div className={styles.rugby}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'soccer') {
@@ -89,7 +89,7 @@ function ScoreBoard(props) {
       <div className={styles.soccer}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   } else if (props.pageInfo === 'tennis') {
@@ -97,7 +97,7 @@ function ScoreBoard(props) {
       <div className={styles.tennis}>
         <div className={styles.overlay} >
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.description}</h3>
         </div>
       </div>;
   }

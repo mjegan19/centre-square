@@ -3,7 +3,7 @@ import ScoreBoard from "../components/layout/ScoreBoard";
 function ContactUs() {
   return (
     <div>
-      <ScoreBoard pageInfo={'contact'} title={'About Us'} description={'Find out everything you wanted to know about CentreSquare...'} />
+      <ScoreBoard pageInfo={'contact'} title={'Contact Us'} description={'Reach out to us via our channels below'} />
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia at natus id quibusdam optio illo error magnam ullam, voluptatem necessitatibus libero amet quos similique!</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis sed quaerat magni assumenda qui, eaque minima beatae quidem iure praesentium quae in incidunt ipsam iusto rem dignissimos saepe cum aut atque enim distinctio facere fugiat. Distinctio quas aliquam eius nulla temporibus praesentium corrupti sequi? Iste.</p>

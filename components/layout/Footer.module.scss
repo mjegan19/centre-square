@@ -17,8 +17,12 @@
     font-family: $mixel-font;
     font-size: 1.5rem;
 
-    a:hover {
-      color: $highlight-color;
+    a {
+      color: $primary-color;
+
+      &:hover {
+        color: $highlight-color;
+      }
     }
   }
 }

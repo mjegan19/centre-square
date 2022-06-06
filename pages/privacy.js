@@ -4,12 +4,12 @@ import ScoreBoard from "../components/layout/ScoreBoard";
 function Privacy() {
   return (
     <div>
-      <ScoreBoard pageInfo={'privacy'} title={'Privacy Policy'} description={'Find out everything you wanted to know about CentreSquare...'} />
+      <ScoreBoard pageInfo={'privacy'} title={'Privacy Policy'} description={'Protecting your privacy, above all else.'} />
 
-      <h1>Privacy Policy</h1>
+      <h2>Privacy Policy</h2>
       <p>CENTREsquare is committed to providing quality services to you and this policy outlines our ongoing obligations to you in respect of how we manage your Personal Information.</p>
       <p>We have adopted the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth) (the Privacy Act). The NPPs govern the way in which we collect, use, disclose, store, secure and dispose of your Personal Information.</p>
-      <p>A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at <Link href="https://www.aoic.gov.au"><a target="_blank">www.aoic.gov.au</a></Link></p>
+      <p>A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at <Link href="https://www.aoic.gov.au"><a target="_blank" className="privacy">www.aoic.gov.au</a></Link></p>
 
       <h3>What is Personal Information and why do we collect it?</h3>
       <p>Personal Information is information or an opinion that identifies an individual. Examples of Personal Information we collect include: names, addresses, email addresses, phone and facsimile numbers.</p>

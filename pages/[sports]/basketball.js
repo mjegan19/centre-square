@@ -5,7 +5,7 @@ import NewsResults from "../../components/news/NewsResults";
 function Basketball(props) {
   return (
     <div>
-      <ScoreBoard pageInfo={'basketball'} title={'Basketball News'} description={'Catch up on the latest in the NBL, NBA, etc...'} />
+      <ScoreBoard pageInfo={'basketball'} title={'Basketball News'} description={'Catch up on all the latest news in the NBL, NBA, etc...'} />
       <NewsResults loadedNews={props.loadedNews} />
     </div>
   );

@@ -5,7 +5,7 @@ import NewsResults from '../../components/news/NewsResults';
 function Racing(props) {
   return (
     <div>
-      <ScoreBoard pageInfo={'motorsport'} title={'Motorsport News'} description={'Catch up on the latest happening on the track...'} />
+      <ScoreBoard pageInfo={'motorsport'} title={'Motorsport News'} description={'Find out what news is getting traction on and off the track.'} />
       <NewsResults loadedNews={props.loadedNews} />
     </div>
   );
