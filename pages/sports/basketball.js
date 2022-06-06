@@ -1,5 +1,5 @@
-import ScoreBoard from "../../components/layout/ScoreBoard";
 import axios from "axios";
+import ScoreBoard from "../../components/layout/ScoreBoard";
 import NewsResults from "../../components/news/NewsResults";
 
 function Basketball(props) {
