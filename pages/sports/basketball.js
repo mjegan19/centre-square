@@ -1,18 +1,11 @@
 import axios from "axios";
 import { Fragment } from "react";
-import Head from "next/head";
 import ScoreBoard from "../../components/layout/ScoreBoard";
 import NewsResults from "../../components/news/NewsResults";
 
 function Basketball(props) {
   return (
     <Fragment>
-      <Head>
-        <link
-          href="../../styles/globals.css"
-          rel="stylesheet"
-        />
-      </Head>
       <ScoreBoard pageInfo={'basketball'} title={'Basketball News'} description={'Catch up on all the latest news in the NBL, NBA, etc...'} />
       <NewsResults loadedNews={props.loadedNews} />
     </Fragment>
@@ -20,7 +13,7 @@ function Basketball(props) {
 }
 
 // Server side generation:
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   // Make API request to NewsAPI
   const response = await axios.get(`https://newsapi.org/v2/everything?q=basketball&apiKey=${process.env.NEWS_API_KEY}`);
   const newsData = response.data.articles;
