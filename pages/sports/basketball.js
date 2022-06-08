@@ -1,13 +1,14 @@
 import axios from "axios";
+import { Fragment } from "react";
 import ScoreBoard from "../../components/layout/ScoreBoard";
 import NewsResults from "../../components/news/NewsResults";
 
 function Basketball(props) {
   return (
-    <div>
+    <Fragment>
       <ScoreBoard pageInfo={'basketball'} title={'Basketball News'} description={'Catch up on all the latest news in the NBL, NBA, etc...'} />
       <NewsResults loadedNews={props.loadedNews} />
-    </div>
+    </Fragment>
   );
 }
 
