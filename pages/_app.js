@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
 
-      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-XB2M7PLMH7`} strategy='afterInteractive' />
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`} strategy='afterInteractive' />
 
       <Script
         id="google-analytics-script"
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-XB2M7PLMH7');
+        gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`});
         `}
       </Script>
 
