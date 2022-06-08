@@ -1,3 +1,4 @@
+import '../../styles/globals.css';
 import styles from './Layout.module.scss';
 
 import NavBar from "./NavBar";
