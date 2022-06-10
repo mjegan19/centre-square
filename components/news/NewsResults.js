@@ -1,3 +1,4 @@
+// Import Components
 import CardLayout from '../ui/CardLayout';
 import NewsItem from './NewsItem';
 

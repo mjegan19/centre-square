@@ -1,4 +1,7 @@
+// Import Core Modules
 import Link from "next/link";
+
+// Import Component
 import ScoreBoard from "../components/layout/ScoreBoard";
 
 function Privacy() {

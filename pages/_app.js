@@ -1,8 +1,13 @@
-import '../styles/sass/globals.scss';
-import Head from 'next/head';
-import Layout from '../components/layout/Layout';
-import Script from 'next/script';
+// Import Core Modules
 import { Fragment } from 'react';
+import Head from 'next/head';
+import Script from 'next/script';
+
+// Import Global Style Sheet
+import '../styles/sass/globals.scss';
+
+// Import Component
+import Layout from '../components/layout/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (

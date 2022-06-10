@@ -1,3 +1,4 @@
+// Import Module Styles
 import styles from './Ruler.module.scss';
 
 function Ruler() {

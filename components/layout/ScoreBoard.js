@@ -1,9 +1,11 @@
+// Import Module Styles
 import styles from './ScoreBoard.module.scss';
 
 function ScoreBoard(props) {
 
   var scoreBoard;
 
+  // Conditional Background Image based on prop passed in.
   if (props.pageInfo === 'home') {
     scoreBoard =
       <div className={styles.home}>

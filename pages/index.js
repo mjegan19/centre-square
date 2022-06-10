@@ -1,4 +1,7 @@
+// Import Core Modules
 import axios from "axios";
+
+// Import Components
 import ScoreBoard from "../components/layout/ScoreBoard";
 import NewsResults from "../components/news/NewsResults";
 

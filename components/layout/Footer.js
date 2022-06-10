@@ -1,4 +1,7 @@
+// Import Module Styles
 import styles from './Footer.module.scss';
+
+// Import Components
 import Link from 'next/link';
 
 function Footer() {

@@ -1,5 +1,8 @@
-import Link from 'next/link';
+// Import Module Styles
 import styles from './NavBar.module.scss';
+
+// Import Core Component
+import Link from 'next/link';
 
 // Import React Icons
 import { GiAbstract060 } from 'react-icons/gi';

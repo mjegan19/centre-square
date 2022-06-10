@@ -1,3 +1,4 @@
+// Import Module Styles
 import styles from './CardLayout.module.scss';
 
 function CardLayout(props) {

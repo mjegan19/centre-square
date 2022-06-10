@@ -1,3 +1,4 @@
+// Import Component
 import ScoreBoard from "../components/layout/ScoreBoard";
 
 function AboutUs() {

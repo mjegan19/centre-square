@@ -1,5 +1,7 @@
+// Import Module Styles
 import styles from './Layout.module.scss';
 
+// Import Components
 import NavBar from "./NavBar";
 import Footer from './Footer';
 import Ruler from './Ruler';

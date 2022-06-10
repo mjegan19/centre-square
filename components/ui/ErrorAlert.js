@@ -1,3 +1,4 @@
+// Import Module Styles
 import styles from './ErrorAlert.module.scss';
 
 const AlertBar = ({ msg }) => {
